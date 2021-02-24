@@ -1,16 +1,4 @@
 
-
-
-
-body{
-    width: auto;
-    display: inline;
-    /*margin-top:0;
-    margin-bottom: 0;
-    padding-top: 0;*/
-}
-
-  
   header {
     background: #444444;
     width: 1150px;
@@ -19,19 +7,25 @@ body{
    display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
+  }
+  header nav div {
+      padding-top: 20px;
   }
 
   nav a {
 
       text-align: center;
-      padding: 10px 30px 10px 30px;
+      padding: 0 30px 0 30px;
       text-decoration: none;
       color: #DDD;
+      font-size: 20px;
   }
  
   header img {
       float: left;
-      margin: 10px 30px 10px 93px;
+      margin: 0 30px 0 93px;
+      height: 70px;
   }
   
   main img:first-child {
@@ -48,19 +42,21 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin: 30px 10.5px 0 10.5px;
+    margin: 30px 10.5px 20px 10.5px;
+    
 
   }
 
   div img:first-child {
 
-    margin-left: 190px;
+    margin-left: 186px;
+    
   }
+
 
   main span img  {
       float: left;
       padding-left: 193.5px;
-      margin-top: 0;
       margin-bottom: 30px;
 
     }
@@ -71,29 +67,26 @@ body{
 
     }
 
-    span {
-        margin-top: 30px;
-        padding-top: 30px;
-        
-    }
 
 
     main span h3 {
-        line-height: 40px;
+       /* line-height: 0.5px;*/
         font-size: x-large;
 
     }
     main span div {
         line-height: 20px;
         overflow: scroll;
-        width: 480px;
-        height: 350px;
-        padding-top: 30px;
+        width: 430px;
+        height: 320px;
+        margin-top: 30px;
 
     }
 
         main span p {
             float: left;
+            font-style: italic;
+            margin-top: 1px;
         }
 
     main a {
@@ -105,7 +98,7 @@ body{
         clear: both;
         background: #444444;
         width: 1150px;
-        height: 90px;
+        height: 120px;
     
        display: block;
         margin-left: auto;
@@ -118,13 +111,17 @@ body{
         background-color: black;
         border-radius: 2%;
         width: 200px;
-        height: 50px;
+        height: 42px;
         font-size: large;
         padding-left: 30px;
         text-align: center;
-        te
+        margin-top: 28px;
+        padding: 10px 10px 0 10px;        
     }
 
+    main span a:hover {
+        background-color: #DDD;
+      }
 
 
 
